@@ -1,4 +1,7 @@
+import {CartWidget} from "./CartWidget"
+
 export const NavBar = () => 
+
 <header> 
     <nav className="navBar">
         <div className="logo">TODO AMBOS</div>
@@ -7,5 +10,7 @@ export const NavBar = () =>
         <a href="*"><li className="navButtons">  Hombres  </li> </a>
         <a href="*"><li className="navButtons">  Combos  </li> </a>
         </ul>
+        <CartWidget/>
     </nav>
+
 </header>
