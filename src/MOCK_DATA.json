@@ -1,0 +1,12 @@
+[{"id":1,"categoria":"hombres", "producto":"Jacket","precio":"$6.79"},
+{"id":2,"categoria":"unisex", "producto":"Shorts","precio":"$3.97"},
+{"id":3,"categoria":"hombres", "producto":"Dress","precio":"$5.78"},
+{"id":4,"categoria":"mujeres", "producto":"Shorts","precio":"$7.94"},
+{"id":5,"categoria":"hombres", "producto":"Skirt","precio":"$5.44"},
+{"id":6,"categoria":"mujeres", "producto":"Shorts","precio":"$5.51"},
+{"id":7,"categoria":"unisex", "producto":"Sweater","precio":"$0.85"},
+{"id":8,"categoria":"unisex", "producto":"Jeans","precio":"$3.74"},
+{"id":9,"categoria":"mujeres", "producto":"Dress","precio":"$8.88"},
+{"id":10,"categoria":"hombres", "producto":"Pants","precio":"$2.47"},
+{"id":11,"categoria":"mujeres", "producto":"T-shirt","precio":"$1.38"},
+{"id":12,"categoria":"hombres", "producto":"Blouse","precio":"$7.90"}]
