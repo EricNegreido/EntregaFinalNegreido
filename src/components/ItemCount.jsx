@@ -1,13 +1,13 @@
 import { useState } from "react"
 
-export const ItemCount = (props) => {
-    let [Count, setCount] = useState(0);
+export const ItemCount = ({onAdd}) => {
+    let [count, setCount] = useState(0);
     return <>
         <div>
-            <span onClick={() => setCount(Count => Count - 1)}> - </span>
-            <div> {Count} </div>
-            <span onClick={() => setCount(Count = Count + 1)}> + </span>            
+            <button onClick={() => setCount(count => count - 1)}> - </button>
+            <div> {count} </div>
+            <button onClick={() => setCount(count = count + 1)}> + </button>            
         </div>
-        <button> Agregar al carrito </button>
+        <button onClick={() => onAdd(count)}> Agregar al carrito </button>
     </>
 }

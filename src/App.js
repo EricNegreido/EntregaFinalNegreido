@@ -14,20 +14,17 @@ function App() {
       />
       <Route 
       path="/categoria/:id" 
-      element={<ItemListContainer greeting ="ROPA HOMBRES"/>}
+      element={<ItemListContainer greeting ="ROPA HOMBRES" category="hombres"/>}
       />
       <Route 
       path="/categoria/:id" 
-      element={<ItemListContainer greeting ="ROPA MUJERES"/>}
+      element={<ItemListContainer greeting ="ROPA MUJERES" category="mujeres" />}
       />
       <Route 
       path="/categoria/:id" 
-      element={<ItemListContainer greeting ="COMBOS"/>}
+      element={<ItemListContainer greeting ="COMBOS" category="unisex"/>}
       />
-      <Route 
-      path="/item/:id" 
-      element={<ItemDetailContainer/>}
-      />
+      <Route path="/item/:id" element={<ItemDetailContainer/>}/>
     </Routes>
   </>
 }
